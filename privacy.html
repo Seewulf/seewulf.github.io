@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy · itsSeewulf Shorts Agent</title>
+<meta name="description" content="Privacy policy for the itsSeewulf Shorts Agent, a private tool that publishes and tracks Shorts on the @itsSeewulf YouTube channel.">
+<style>
+  :root { --bg: #fbfaf7; --fg: #1d1d1b; --muted: #5f5e5a; --line: #e4e2dc; --accent: #c2410c; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111214; --fg: #ececea; --muted: #a3a29d; --line: #2a2b2f; --accent: #fb923c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 17px/1.65 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  main { max-width: 680px; margin: 0 auto; padding: 56px 16px 40px; }
+  h1 { font-size: 1.8rem; line-height: 1.2; margin: 0 0 6px; }
+  .sub { color: var(--muted); margin: 0 0 28px; }
+  h2 { font-size: 1.1rem; margin: 32px 0 8px; }
+  ul { padding-left: 20px; margin: 0; }
+  li { margin: 6px 0; }
+  a { color: var(--accent); }
+  code { font-size: .9em; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Privacy Policy: itsSeewulf Shorts Agent</h1>
+  <p class="sub">Effective November 1, 2026</p>
+
+  <p>The itsSeewulf Shorts Agent is a private automation tool that I, Prabin Bhusal, built to publish and track Shorts on my own YouTube channel, <a href="https://www.youtube.com/@itsSeewulf">@itsSeewulf</a>. It is not offered to the public, and I am its only user.</p>
+
+  <h2>What it accesses</h2>
+  <p>When I sign in with Google, the agent asks for these permissions, and uses them for my own channel only:</p>
+  <ul>
+    <li><strong>Upload videos</strong> (<code>youtube.upload</code>): to publish each new Short.</li>
+    <li><strong>View my YouTube account</strong> (<code>youtube.readonly</code>): to read the view, like and comment counts of my videos.</li>
+    <li><strong>View YouTube Analytics reports</strong> (<code>yt-analytics.readonly</code>): to read how much of each video people watch.</li>
+  </ul>
+
+  <h2>How the data is used</h2>
+  <ul>
+    <li>Video statistics decide which topics to make next.</li>
+    <li>Titles and statistics of my own videos are sent to Anthropic's Claude API to plan and write new scripts. Under Anthropic's commercial terms, API data is not used to train their models.</li>
+    <li>Nothing is sold, shared for advertising, or used to train AI models.</li>
+    <li>No data about any other person is collected.</li>
+  </ul>
+
+  <h2>Where it is stored</h2>
+  <ul>
+    <li>The Google sign-in token is kept as an encrypted GitHub Actions secret and in a local file on my own computer.</li>
+    <li>Video titles and statistics are kept in my private GitHub repository.</li>
+  </ul>
+
+  <h2>Google API Services</h2>
+  <p>The agent's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. The agent uses YouTube API Services; see the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+  <h2>Removing access</h2>
+  <p>Access can be removed at any time from <a href="https://myaccount.google.com/permissions">Google Account → Third-party apps &amp; services</a>.</p>
+
+  <h2>Contact</h2>
+  <p>Through my GitHub profile: <a href="https://github.com/Seewulf">github.com/Seewulf</a>.</p>
+
+  <footer><a href="index.html">Home</a></footer>
+</main>
+</body>
+</html>
